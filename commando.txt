@@ -1,0 +1,29 @@
+commando's
+
+git init
+git config --global init.defaultBranch main
+git config --global user.name "Bart Thonissen"
+git config --global user.email "bart.thonissen@thomasmore.be"
+
+git remote add origin https://github.com/BartTho/Les-20250918
+git push origin main
+
+bestand
+- .gitignore
+    https://www.toptal.com/developers/gitignore
+    VisualStudioCode
+    Windows
+
+git branch -m master main
+git status
+
+README.md
+    #Dit is een demo git project om te leren werken met GiT. 
+    Voor de cursus DevOps.
+
+commando's.txt
+    Alle commando's in opslaan
+    
+
+git add
+git commit -m "Dit is de initiële commit"
