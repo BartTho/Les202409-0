@@ -5,25 +5,66 @@ git config --global init.defaultBranch main
 git config --global user.name "Bart Thonissen"
 git config --global user.email "bart.thonissen@thomasmore.be"
 
-git remote add origin https://github.com/BartTho/Les-20250918
-git push origin main
+README
+    # Dit is een demo van de les DevOps
+    ## Onderdeel GiT
+
+git status
+git add README.md
+git add *
+git status
+git commit -m "Dit is de initiële commit"
+git status
+
+git branch
+git remote add origin https://github.com/BartTho/Les202409-0
+git push -u origin main 
 
 bestand
 - .gitignore
+    *.bash
+    *.sh
+    *.ps1
+    *.cmd
+    *.bat
+
     https://www.toptal.com/developers/gitignore
     VisualStudioCode
     Windows
 
-git branch -m master main
-git status
+Toevoegen 
+    code.sh
+        ls -la
 
-README.md
-    #Dit is een demo git project om te leren werken met GiT. 
-    Voor de cursus DevOps.
+git add *
+git add .gitignore
+git commit -m "Met .gitignore" 
+git push -u origin main 
 
-commando's.txt
-    Alle commando's in opslaan
-    
+git branch ontwikkeling
+git checkout ontwikkeling
+git branch
+
+DEMO02.txt
+    Dit is een 2de demo in de branch ontwikkeling
+
+git add *
+git commit -m "toevoegen van ontwikkeling" 
+git checkout main
+
+-> zie demo 3 is weg
+git push origin ontwikkeling
+-> zie branches 
+-> zie demo03 is er
+
+MERGE
+-> git branch
+-> ZIE main
+
+git merge ontwikkeling
+-> zie demo 3 is er.
+
+git push -u origin ontwikkeling
 
 git add
 git commit -m "Dit is de initiële commit"
